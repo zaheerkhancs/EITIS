@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Messages>
+
+
+
+  <Field>
+    <Name>Insert_SameAlreadyExists</Name>
+    <value>Request was not executed as the same record already exists in the system.</value>
+  </Field>
+
+  <Field>
+    <Name>Insert_UserAlreadyExists</Name>
+    <value>A user with this UserId already exists. Please select a different UserId.</value>
+  </Field>
+
+  <Field>
+    <Name>ErrorOccured</Name>
+    <value>An error has occured.</value>
+  </Field>
+
+  <Field>
+    <Name>Inserted_SuccessFully</Name>
+    <value>Record Inserted Successfully.</value>
+  </Field>
+
+  <Field>
+    <Name>NoRecordExists</Name>
+    <value>No record(s) found.</value>
+  </Field>
+
+  <Field>
+    <Name>Deleted_SuccessFully</Name>
+    <value>Record Deleted Successfully.</value>
+  </Field>
+   <Field>
+    <Name>DeletedMultiple_SuccessFully</Name>
+    <value>Record(s) deleted successfully.</value>
+  </Field>
+
+  <Field>
+    <Name>LoginFailed</Name>
+    <value>Login failed.</value>
+  </Field>
+
+  <Field>
+    <Name>PasswordRecovered</Name>
+    <value>Your password has been successfully sent to your e-mail address.</value>
+  </Field>
+
+  <Field>
+    <Name>NoUserExists</Name>
+    <value>The supplied username could not be found.</value>
+  </Field>
+
+  <Field>
+    <Name>ErrorOccured_ActionCancelled</Name>
+    <value>Could not complete the requested action, an error has occured.</value>
+  </Field>
+
+  <Field>
+    <Name>Search_NoCriteria</Name>
+    <value>Please fill atleast one field for selected search category.</value>
+  </Field>
+
+  <Field>
+    <Name>FromDate_Greater_Todate</Name>
+    <value>From Date cannot be greater than To Date.</value>
+  </Field>
+
+  <Field>
+    <Name>Invalid_Date</Name>
+    <value>Please give a valid entry for the date.</value>
+  </Field>
+
+  <Field>
+    <Name>Updated_SuccessFully</Name>
+    <value>Record Updated Successfully.</value>
+  </Field>
+
+  <Field>
+    <Name>Password_Changed_Successfully</Name>
+    <value>Password changed successfully.</value>
+  </Field>
+
+
+  <Field>
+    <Name>PathNotFound</Name>
+    <value>Path not found.</value>
+  </Field>
+
+  <Field>
+    <Name>CannotDelete_ReferenceExists</Name>
+    <value>Cannot delete this record. Reference exists.</value>
+  </Field>
+
+  <Field>
+    <Name>Please_Enter</Name>
+    <value>Please enter</value>
+  </Field>
+
+  <Field>
+    <Name>Please_Select</Name>
+    <value>Please select</value>
+  </Field>
+
+  <Field>
+    <Name>EmailNotFound</Name>
+    <value>The email address you entered was not found in our records.</value>
+  </Field>
+
+  <Field>
+    <Name>EmailSent</Name>
+    <value> An email containing username and a randomly assigned password has been sent to the newly added user.</value>
+  </Field>
+
+  <Field>
+    <Name>IncorrectPwd</Name>
+    <value>The supplied password was incorrect.</value>
+  </Field>
+
+  <Field>
+    <Name>Insert_EmailExists</Name>
+    <value>Email already exists in our records. Please enter a different email</value>
+  </Field>
+
+  <Field>
+    <Name>Invalid_Email</Name>
+    <value>Please enter valid email address.</value>
+  </Field>
+
+  <Field>
+    <Name>ConfirmPwd_Must_Match</Name>
+    <value>The Password and Re-Type Password must match.</value>
+  </Field>
+
+  <Field>
+    <Name>SqlInjection_PwdLen</Name>
+    <value>Password should be atleast 8 characters long with no special character.</value>
+  </Field>
+  
+  <Field>
+  <Name>SqlInjection_ConfirmPwdLen</Name>
+  <value>ConfirmPassword should be atleast 8 characters long with no special character.</value>
+ </Field>
+
+  <Field>
+    <Name>SqlInjectionMsg</Name>
+    <value>Invalid Characters are not allowed.</value>
+  </Field>
+
+  <Field>
+    <Name>AddEditUser_AccesRights</Name>
+    <value>You dont have rights to View details of this Lead.</value>
+  </Field>
+  <Field>
+    <Name>AddEditUser_LastSuperAdmin</Name>
+    <value>Cannot be deleted.Atleast one Superadmin is required in the system.</value>
+    
+  </Field>
+
+  
+<Field>
+  <Name>Insert_UnitNoExists</Name>
+  <value>UnitNo already exists in our records. Please enter a different UnitNo</value>
+</Field>
+
+<Field>
+  <Name>Not_LoggedIn</Name> 
+  <value>You are not logged in. Please Login.</value> 
+  </Field>
+
+
+</Messages>

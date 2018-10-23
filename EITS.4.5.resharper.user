@@ -1,0 +1,292 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Forms/f:StaffBulkUpload.aspx" caret="0" fromTop="0" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Agency.aspx.cs" caret="4111" fromTop="27" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Department.aspx.cs" caret="4201" fromTop="7" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:MasterPages/f:MainPage.Master" caret="6520" fromTop="9" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Country.aspx.cs" caret="4046" fromTop="15" />
+      <File id="CA3A62ED-13B6-4F58-95BF-BC25193EB2AC/f:EITSDB.cs" caret="1948" fromTop="18" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:ContractStatus.aspx.cs" caret="4320" fromTop="20" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:ContractTypes.aspx.cs" caret="2435" fromTop="16" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:DutyStation.aspx.cs" caret="973" fromTop="22" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Holidays.aspx.cs" caret="2366" fromTop="26" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveType.aspx.cs" caret="2514" fromTop="25" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:PassportType.aspx.cs" caret="2358" fromTop="65" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:VisaType.aspx.cs" caret="1999" fromTop="58" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:ContractStatus.aspx" caret="2659" fromTop="9" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:ContractTypes.aspx" caret="2349" fromTop="6" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Country.aspx" caret="2378" fromTop="22" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Department.aspx" caret="1915" fromTop="0" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:DutyStation.aspx" caret="2469" fromTop="18" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:PassportType.aspx" caret="2364" fromTop="18" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:VisaType.aspx" caret="1996" fromTop="22" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Holidays.aspx" caret="3089" fromTop="33" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveType.aspx" caret="2343" fromTop="28" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveList.aspx" caret="4272" fromTop="19" />
+      <File id="CA3A62ED-13B6-4F58-95BF-BC25193EB2AC/f:sp_Lookups_All.cs" caret="991" fromTop="13" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveList.aspx.cs" caret="503" fromTop="15" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Admin/f:Login.aspx.cs" caret="1781" fromTop="10" />
+      <File id="CA3A62ED-13B6-4F58-95BF-BC25193EB2AC/f:EITSDB_Base.cs" caret="14283" fromTop="17" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Agency.aspx" caret="6678" fromTop="16" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Forms/f:FileUpload.aspx" caret="8861" fromTop="23" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Forms/f:FileUpload.aspx.cs" caret="11188" fromTop="86" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:ContractTypes.aspx" caret="0" fromTop="0" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:ContractTypes.aspx" caret="2349" fromTop="20" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Country.aspx" caret="1123" fromTop="16" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Country.aspx" caret="2378" fromTop="22" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Department.aspx" caret="2375" fromTop="24" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:DutyStation.aspx" caret="2469" fromTop="18" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Holidays.aspx" caret="0" fromTop="0" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Holidays.aspx" caret="2327" fromTop="18" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveList.aspx" caret="0" fromTop="0" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveType.aspx" caret="0" fromTop="0" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:PassportType.aspx" caret="0" fromTop="0" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:PassportType.aspx" caret="2364" fromTop="18" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Holidays.aspx" caret="3089" fromTop="23" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveList.aspx" caret="2390" fromTop="13" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveList.aspx" caret="3739" fromTop="19" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveList.aspx" caret="3040" fromTop="9" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveType.aspx" caret="2343" fromTop="28" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveList.aspx" caret="4272" fromTop="19" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveList.aspx.cs" caret="2628" fromTop="18" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveList.aspx.cs" caret="3201" fromTop="19" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:LeaveList.aspx.cs" caret="503" fromTop="15" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Forms/f:FileUpload.aspx.cs" caret="12041" fromTop="20" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Forms/f:FileUpload.aspx.cs" caret="11803" fromTop="15" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Forms/f:FileUpload.aspx.cs" caret="2855" fromTop="12" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Forms/f:FileUpload.aspx.cs" caret="4145" fromTop="27" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Forms/f:FileUpload.aspx.cs" caret="3445" fromTop="10" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Forms/f:FileUpload.aspx.cs" caret="3873" fromTop="17" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Forms/f:FileUpload.aspx.cs" caret="3795" fromTop="17" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Lookups/f:Agency.aspx" caret="6678" fromTop="16" />
+      <File id="EC6050B5-1907-483B-9135-11FC442EA47E/d:Forms/f:FileUpload.aspx" caret="8861" fromTop="23" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="1" />
+      <Item value="IOM.EITS.DAL" priority="1" />
+      <Item value="IsPostBackEventControlRegistered" priority="0" />
+      <Item value="IsPostBack" priority="0" />
+      <Item value="_Showdata" priority="3" />
+      <Item value="lkpAgencyRow" priority="6" />
+      <Item value="Boolean" priority="0" />
+      <Item value="bool" priority="2" />
+      <Item value="row_" priority="31" />
+      <Item value="mpePanel" priority="2" />
+      <Item value="this" priority="7" />
+      <Item value="true" priority="5" />
+      <Item value="txtAgencyName" priority="0" />
+      <Item value="new" priority="15" />
+      <Item value="e" priority="9" />
+      <Item value="EITSDB" priority="4" />
+      <Item value="_objRow" priority="2" />
+      <Item value="obj_" priority="7" />
+      <Item value="false" priority="8" />
+      <Item value="lkpDepartmentRow" priority="4" />
+      <Item value="Convert" priority="13" />
+      <Item value="EITS_App" priority="0" />
+      <Item value="BaseController" priority="1" />
+      <Item value="lkpCountryRow" priority="2" />
+      <Item value="lkpContract_StatusRow" priority="1" />
+      <Item value="objcs" priority="1" />
+      <Item value="lkpContract_TypeCollection" priority="1" />
+      <Item value="_objDb" priority="9" />
+      <Item value="lkpContract_TypeRow" priority="1" />
+      <Item value="var" priority="5" />
+      <Item value="lkpDutyStationRow" priority="0" />
+      <Item value="objds" priority="0" />
+      <Item value="tblHolidayRow" priority="0" />
+      <Item value="lkpLeaveRow" priority="0" />
+      <Item value="lkpLeaveTypeRow" priority="0" />
+      <Item value="lkpPassportTypeRow" priority="0" />
+      <Item value="CompareValidator" priority="0" />
+      <Item value="lkpVisaTypeRow" priority="0" />
+      <Item value="tblStaff_FilesRow" priority="3" />
+      <Item value="_obj" priority="1" />
+      <Item value="SystemException" priority="1" />
+      <Item value="public" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="string" priority="1" />
+      <Item value="System" priority="0" />
+      <Item value="IO" priority="0" />
+      <Item value="Path" priority="0" />
+      <Item value="fpathname" priority="0" />
+      <Item value="staff" priority="0" />
+      <Item value="aurg" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.EITSDB">
+      <Item value="lkpAgencyCollection" priority="5" />
+      <Item value="lkpDutyStationCollection" priority="2" />
+      <Item value="lkpDepartmentCollection" priority="5" />
+      <Item value="lkpCountryCollection" priority="4" />
+      <Item value="lkpContract_StatusCollection" priority="1" />
+      <Item value="lkpContract_TypeCollection" priority="1" />
+      <Item value="tblHolidayCollection" priority="1" />
+      <Item value="lkpLeaveCollection" priority="2" />
+      <Item value="lkpLeaveTypeCollection" priority="1" />
+      <Item value="lkpPassportTypeCollection" priority="1" />
+      <Item value="lkpVisaTypeCollection" priority="1" />
+      <Item value="tblStaff_FilesCollection" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EITS_App.Lookups.Agency">
+      <Item value="txtAgencyID" priority="4" />
+      <Item value="txtAgencyName" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpAgencyRow">
+      <Item value="Agency_Name" priority="3" />
+      <Item value="Agency_ID" priority="2" />
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpAgencyCollection">
+      <Item value="Update" priority="1" />
+      <Item value="Insert" priority="0" />
+      <Item value="GetRow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AjaxControlToolkit.ModalPopupExtender">
+      <Item value="Show" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="ReadOnly" priority="2" />
+      <Item value="Text" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.sp_Lookups_All">
+      <Item value="AgencyDeleteLogically" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CommandEventArgs">
+      <Item value="CommandArgument" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="13" />
+      <Item value="toar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToBoolean" priority="1" />
+      <Item value="ToInt32" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EITS_App.Lookups.Department">
+      <Item value="txtdeptId" priority="4" />
+      <Item value="txtdeptName" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpDepartmentRow">
+      <Item value="Department_Name" priority="2" />
+      <Item value="Department_ID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpDepartmentCollection">
+      <Item value="Insert" priority="0" />
+      <Item value="Update" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EITS_App.Lookups.Country">
+      <Item value="txtCountryId" priority="5" />
+      <Item value="txtCountryName" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpCountryRow">
+      <Item value="Country_Name" priority="3" />
+      <Item value="Country_ID" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpCountryCollection">
+      <Item value="GetAllAsDataTable" priority="0" />
+      <Item value="DeleteByPrimaryKey" priority="1" />
+      <Item value="Delete" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpContract_StatusCollection">
+      <Item value="GetByPrimaryKey" priority="0" />
+      <Item value="Update" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpContract_StatusRow">
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpContract_TypeCollection">
+      <Item value="GetByPrimaryKey" priority="0" />
+      <Item value="Update" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpContract_TypeRow">
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpDutyStationCollection">
+      <Item value="GetByPrimaryKey" priority="0" />
+      <Item value="Update" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpDutyStationRow">
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.tblHolidayCollection">
+      <Item value="GetByPrimaryKey" priority="0" />
+      <Item value="Update" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.tblHolidayRow">
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpLeaveCollection">
+      <Item value="GetByPrimaryKey" priority="0" />
+      <Item value="Update" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpLeaveRow">
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpLeaveTypeCollection">
+      <Item value="GetByPrimaryKey" priority="0" />
+      <Item value="Update" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpLeaveTypeRow">
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpPassportTypeCollection">
+      <Item value="GetByPrimaryKey" priority="0" />
+      <Item value="Update" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpPassportTypeRow">
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpVisaTypeCollection">
+      <Item value="GetByPrimaryKey" priority="0" />
+      <Item value="Update" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.lkpVisaTypeRow">
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EITS_App.lkpLeave">
+      <Item value="chkActive" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IOM.EITS.DAL.tblStaff_FilesCollection">
+      <Item value="Delete" priority="1" />
+      <Item value="DeleteByPrimaryKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EITS_App.Forms.FileUpload">
+      <Item value="ddlStaffmember" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedValue" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToString" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="GetFileName" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

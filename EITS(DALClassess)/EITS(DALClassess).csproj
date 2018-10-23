@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA3A62ED-13B6-4F58-95BF-BC25193EB2AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EITS</RootNamespace>
+    <AssemblyName>EITS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Entity.Design">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aspnet_ApplicationsCollection.cs" />
+    <Compile Include="aspnet_ApplicationsCollection_Base.cs" />
+    <Compile Include="aspnet_ApplicationsRow.cs" />
+    <Compile Include="aspnet_ApplicationsRow_Base.cs" />
+    <Compile Include="aspnet_MembershipCollection.cs" />
+    <Compile Include="aspnet_MembershipCollection_Base.cs" />
+    <Compile Include="aspnet_MembershipRow.cs" />
+    <Compile Include="aspnet_MembershipRow_Base.cs" />
+    <Compile Include="aspnet_PathsCollection.cs" />
+    <Compile Include="aspnet_PathsCollection_Base.cs" />
+    <Compile Include="aspnet_PathsRow.cs" />
+    <Compile Include="aspnet_PathsRow_Base.cs" />
+    <Compile Include="aspnet_PersonalizationAllUsersCollection.cs" />
+    <Compile Include="aspnet_PersonalizationAllUsersCollection_Base.cs" />
+    <Compile Include="aspnet_PersonalizationAllUsersRow.cs" />
+    <Compile Include="aspnet_PersonalizationAllUsersRow_Base.cs" />
+    <Compile Include="aspnet_PersonalizationPerUserCollection.cs" />
+    <Compile Include="aspnet_PersonalizationPerUserCollection_Base.cs" />
+    <Compile Include="aspnet_PersonalizationPerUserRow.cs" />
+    <Compile Include="aspnet_PersonalizationPerUserRow_Base.cs" />
+    <Compile Include="aspnet_ProfileCollection.cs" />
+    <Compile Include="aspnet_ProfileCollection_Base.cs" />
+    <Compile Include="aspnet_ProfileRow.cs" />
+    <Compile Include="aspnet_ProfileRow_Base.cs" />
+    <Compile Include="aspnet_RolesCollection.cs" />
+    <Compile Include="aspnet_RolesCollection_Base.cs" />
+    <Compile Include="aspnet_RolesRow.cs" />
+    <Compile Include="aspnet_RolesRow_Base.cs" />
+    <Compile Include="aspnet_SchemaVersionsCollection.cs" />
+    <Compile Include="aspnet_SchemaVersionsCollection_Base.cs" />
+    <Compile Include="aspnet_SchemaVersionsRow.cs" />
+    <Compile Include="aspnet_SchemaVersionsRow_Base.cs" />
+    <Compile Include="aspnet_UsersCollection.cs" />
+    <Compile Include="aspnet_UsersCollection_Base.cs" />
+    <Compile Include="aspnet_UsersInRolesCollection.cs" />
+    <Compile Include="aspnet_UsersInRolesCollection_Base.cs" />
+    <Compile Include="aspnet_UsersInRolesRow.cs" />
+    <Compile Include="aspnet_UsersInRolesRow_Base.cs" />
+    <Compile Include="aspnet_UsersRow.cs" />
+    <Compile Include="aspnet_UsersRow_Base.cs" />
+    <Compile Include="aspnet_WebEvent_EventsCollection.cs" />
+    <Compile Include="aspnet_WebEvent_EventsCollection_Base.cs" />
+    <Compile Include="aspnet_WebEvent_EventsRow.cs" />
+    <Compile Include="aspnet_WebEvent_EventsRow_Base.cs" />
+    <Compile Include="EITSCommon.cs" />
+    <Compile Include="EITSDB.cs" />
+    <Compile Include="EITSDB_Base.cs" />
+    <Compile Include="Leave.cs" />
+    <Compile Include="lkpAgencyCollection.cs" />
+    <Compile Include="lkpAgencyCollection_Base.cs" />
+    <Compile Include="lkpAgencyRow.cs" />
+    <Compile Include="lkpAgencyRow_Base.cs" />
+    <Compile Include="lkpContract_StatusCollection.cs" />
+    <Compile Include="lkpContract_StatusCollection_Base.cs" />
+    <Compile Include="lkpContract_StatusRow.cs" />
+    <Compile Include="lkpContract_StatusRow_Base.cs" />
+    <Compile Include="lkpContract_TypeCollection.cs" />
+    <Compile Include="lkpContract_TypeCollection_Base.cs" />
+    <Compile Include="lkpContract_TypeRow.cs" />
+    <Compile Include="lkpContract_TypeRow_Base.cs" />
+    <Compile Include="lkpCountryCollection.cs" />
+    <Compile Include="lkpCountryCollection_Base.cs" />
+    <Compile Include="lkpCountryRow.cs" />
+    <Compile Include="lkpCountryRow_Base.cs" />
+    <Compile Include="lkpDepartmentCollection.cs" />
+    <Compile Include="lkpDepartmentCollection_Base.cs" />
+    <Compile Include="lkpDepartmentRow.cs" />
+    <Compile Include="lkpDepartmentRow_Base.cs" />
+    <Compile Include="lkpDutyStationCollection.cs" />
+    <Compile Include="lkpDutyStationCollection_Base.cs" />
+    <Compile Include="lkpDutyStationRow.cs" />
+    <Compile Include="lkpDutyStationRow_Base.cs" />
+    <Compile Include="lkpLeave.cs" />
+    <Compile Include="lkpLeaveCollection.cs" />
+    <Compile Include="lkpLeaveCollection_Base.cs" />
+    <Compile Include="lkpLeaveRow.cs" />
+    <Compile Include="lkpLeaveRow_Base.cs" />
+    <Compile Include="lkpLeaveTypeCollection.cs" />
+    <Compile Include="lkpLeaveTypeCollection_Base.cs" />
+    <Compile Include="lkpLeaveTypeRow.cs" />
+    <Compile Include="lkpLeaveTypeRow_Base.cs" />
+    <Compile Include="lkpPassportTypeCollection.cs" />
+    <Compile Include="lkpPassportTypeCollection_Base.cs" />
+    <Compile Include="lkpPassportTypeRow.cs" />
+    <Compile Include="lkpPassportTypeRow_Base.cs" />
+    <Compile Include="lkpRelationshipCollection.cs" />
+    <Compile Include="lkpRelationshipCollection_Base.cs" />
+    <Compile Include="lkpRelationshipRow.cs" />
+    <Compile Include="lkpRelationshipRow_Base.cs" />
+    <Compile Include="lkpVisaTypeCollection.cs" />
+    <Compile Include="lkpVisaTypeCollection_Base.cs" />
+    <Compile Include="lkpVisaTypeRow.cs" />
+    <Compile Include="lkpVisaTypeRow_Base.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sp_Lookups_All.cs" />
+    <Compile Include="staff.cs" />
+    <Compile Include="tblHolidayCollection.cs" />
+    <Compile Include="tblHolidayCollection_Base.cs" />
+    <Compile Include="tblHolidayRow.cs" />
+    <Compile Include="tblHolidayRow_Base.cs" />
+    <Compile Include="tblRCACollection.cs" />
+    <Compile Include="tblRCACollection_Base.cs" />
+    <Compile Include="tblRCARow.cs" />
+    <Compile Include="tblRCARow_Base.cs" />
+    <Compile Include="tblRecentLogCollection.cs" />
+    <Compile Include="tblRecentLogCollection_Base.cs" />
+    <Compile Include="tblRecentLogRow.cs" />
+    <Compile Include="tblRecentLogRow_Base.cs" />
+    <Compile Include="tblStaffCollection.cs" />
+    <Compile Include="tblStaffCollection_Base.cs" />
+    <Compile Include="tblStaffRow.cs" />
+    <Compile Include="tblStaffRow_Base.cs" />
+    <Compile Include="tblStaff_AttendanceCollection.cs" />
+    <Compile Include="tblStaff_AttendanceCollection_Base.cs" />
+    <Compile Include="tblStaff_AttendanceRow.cs" />
+    <Compile Include="tblStaff_AttendanceRow_Base.cs" />
+    <Compile Include="tblStaff_AttendenceCollection.cs" />
+    <Compile Include="tblStaff_AttendenceCollection_Base.cs" />
+    <Compile Include="tblStaff_AttendenceRow.cs" />
+    <Compile Include="tblStaff_AttendenceRow_Base.cs" />
+    <Compile Include="tblStaff_ContractCollection.cs" />
+    <Compile Include="tblStaff_ContractCollection_Base.cs" />
+    <Compile Include="tblStaff_ContractRow.cs" />
+    <Compile Include="tblStaff_ContractRow_Base.cs" />
+    <Compile Include="tblStaff_EmergencyContactCollection.cs" />
+    <Compile Include="tblStaff_EmergencyContactCollection_Base.cs" />
+    <Compile Include="tblStaff_EmergencyContactRow.cs" />
+    <Compile Include="tblStaff_EmergencyContactRow_Base.cs" />
+    <Compile Include="tblStaff_FilesCollection.cs" />
+    <Compile Include="tblStaff_FilesCollection_Base.cs" />
+    <Compile Include="tblStaff_FilesRow.cs" />
+    <Compile Include="tblStaff_FilesRow_Base.cs" />
+    <Compile Include="tblStaff_LeaveAvailableCollection.cs" />
+    <Compile Include="tblStaff_LeaveAvailableCollection_Base.cs" />
+    <Compile Include="tblStaff_LeaveAvailableRow.cs" />
+    <Compile Include="tblStaff_LeaveAvailableRow_Base.cs" />
+    <Compile Include="tblStaff_LeaveTransCollection.cs" />
+    <Compile Include="tblStaff_LeaveTransCollection_Base.cs" />
+    <Compile Include="tblStaff_LeaveTransRow.cs" />
+    <Compile Include="tblStaff_LeaveTransRow_Base.cs" />
+    <Compile Include="tblStaff_PassportCollection.cs" />
+    <Compile Include="tblStaff_PassportCollection_Base.cs" />
+    <Compile Include="tblStaff_PassportRow.cs" />
+    <Compile Include="tblStaff_PassportRow_Base.cs" />
+    <Compile Include="tblStaff_VisaCollection.cs" />
+    <Compile Include="tblStaff_VisaCollection_Base.cs" />
+    <Compile Include="tblStaff_VisaRow.cs" />
+    <Compile Include="tblStaff_VisaRow_Base.cs" />
+    <Compile Include="UploadDetail.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

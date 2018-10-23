@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30428</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC6050B5-1907-483B-9135-11FC442EA47E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EITS_App</RootNamespace>
+    <AssemblyName>EITS_App</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.20229.17494, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
+    <Reference Include="EITS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\EITS(DALClassess)\bin\Debug\EITS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\dbConnection.xml" />
+    <Content Include="bin\EITS_App.pdb" />
+    <Content Include="CommonMessages\CommonMessages.xml" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\add.gif" />
+    <Content Include="images\add_2.gif" />
+    <Content Include="images\admin_ico.gif" />
+    <Content Include="images\cncl.gif" />
+    <Content Include="images\cncl2.gif" />
+    <Content Include="images\del.gif" />
+    <Content Include="images\edt.gif" />
+    <Content Include="images\index_01.gif" />
+    <Content Include="images\login_bg_rep.gif" />
+    <Content Include="images\login_icon.gif" />
+    <Content Include="images\logos.gif" />
+    <Content Include="images\logo_17.gif" />
+    <Content Include="images\menu_head.gif" />
+    <Content Include="images\name_bg_rep.gif" />
+    <Content Include="images\name_end.gif" />
+    <Content Include="images\name_start.gif" />
+    <Content Include="images\save.gif" />
+    <Content Include="images\save_2.gif" />
+    <Content Include="images\select_COMPANY.gif" />
+    <Content Include="images\select_YEAR.gif" />
+    <Content Include="images\sep.gif" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\top_bg_rep.gif" />
+    <Content Include="images\ttl_bgrep.gif" />
+    <Content Include="images\ttl_end.gif" />
+    <Content Include="images\ttl_start.gif" />
+    <Content Include="images\user_bg_rep.gif" />
+    <Content Include="images\user_end.gif" />
+    <Content Include="images\user_start.gif" />
+    <Content Include="images\user_top_rep.gif" />
+    <Content Include="images\user_ttl_end.gif" />
+    <Content Include="images\user_ttl_rep.gif" />
+    <Content Include="images\user_ttl_start.gif" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditUser.aspx.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditUser.aspx.designer.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageLocked.aspx.cs">
+      <DependentUpon>ManageLocked.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageLocked.aspx.designer.cs">
+      <DependentUpon>ManageLocked.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageUsers.aspx.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageUsers.aspx.designer.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\NewUser.aspx.cs">
+      <DependentUpon>NewUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\NewUser.aspx.designer.cs">
+      <DependentUpon>NewUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UnauthorizedAccess.aspx.cs">
+      <DependentUpon>UnauthorizedAccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UnauthorizedAccess.aspx.designer.cs">
+      <DependentUpon>UnauthorizedAccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserInformation.aspx.cs">
+      <DependentUpon>UserInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserInformation.aspx.designer.cs">
+      <DependentUpon>UserInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Verification.aspx.cs">
+      <DependentUpon>Verification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Verification.aspx.designer.cs">
+      <DependentUpon>Verification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BaseController\BaseController.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaseController\ReportCon.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultError.aspx.cs">
+      <DependentUpon>DefaultError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultError.aspx.designer.cs">
+      <DependentUpon>DefaultError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FileUpload.aspx.cs">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\FileUpload.aspx.designer.cs">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentInfo.aspx.cs">
+      <DependentUpon>PaymentInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentInfo.aspx.designer.cs">
+      <DependentUpon>PaymentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RcaNotice.aspx.cs">
+      <DependentUpon>RcaNotice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\RcaNotice.aspx.designer.cs">
+      <DependentUpon>RcaNotice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StaffBulkUpload.aspx.cs">
+      <DependentUpon>StaffBulkUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\StaffBulkUpload.aspx.designer.cs">
+      <DependentUpon>StaffBulkUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StaffInformation.aspx.cs">
+      <DependentUpon>StaffInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\StaffInformation.aspx.designer.cs">
+      <DependentUpon>StaffInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StaffInformationDetail.aspx.cs">
+      <DependentUpon>StaffInformationDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\StaffInformationDetail.aspx.designer.cs">
+      <DependentUpon>StaffInformationDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\Agency.aspx.cs">
+      <DependentUpon>Agency.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lookups\Agency.aspx.designer.cs">
+      <DependentUpon>Agency.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\ContractStatus.aspx.cs">
+      <DependentUpon>ContractStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lookups\ContractStatus.aspx.designer.cs">
+      <DependentUpon>ContractStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\ContractTypes.aspx.cs">
+      <DependentUpon>ContractTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lookups\ContractTypes.aspx.designer.cs">
+      <DependentUpon>ContractTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\Country.aspx.cs">
+      <DependentUpon>Country.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lookups\Country.aspx.designer.cs">
+      <DependentUpon>Country.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\Department.aspx.cs">
+      <DependentUpon>Department.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lookups\Department.aspx.designer.cs">
+      <DependentUpon>Department.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\DutyStation.aspx.cs">
+      <DependentUpon>DutyStation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lookups\DutyStation.aspx.designer.cs">
+      <DependentUpon>DutyStation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\Holidays.aspx.cs">
+      <DependentUpon>Holidays.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lookups\Holidays.aspx.designer.cs">
+      <DependentUpon>Holidays.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\LeaveList.aspx.cs">
+      <DependentUpon>LeaveList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lookups\LeaveList.aspx.designer.cs">
+      <DependentUpon>LeaveList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\LeaveType.aspx.cs">
+      <DependentUpon>LeaveType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lookups\LeaveType.aspx.designer.cs">
+      <DependentUpon>LeaveType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\PassportType.aspx.cs">
+      <DependentUpon>PassportType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lookups\PassportType.aspx.designer.cs">
+      <DependentUpon>PassportType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\VisaType.aspx.cs">
+      <DependentUpon>VisaType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lookups\VisaType.aspx.designer.cs">
+      <DependentUpon>VisaType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Login.Master.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Login.Master.designer.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\MainPage.Master.cs">
+      <DependentUpon>MainPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\MainPage.Master.designer.cs">
+      <DependentUpon>MainPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\AccruedAL.aspx.cs">
+      <DependentUpon>AccruedAL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\AccruedAL.aspx.designer.cs">
+      <DependentUpon>AccruedAL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ContractModality.aspx.cs">
+      <DependentUpon>ContractModality.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ContractModality.aspx.designer.cs">
+      <DependentUpon>ContractModality.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DutyStation.aspx.cs">
+      <DependentUpon>DutyStation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\DutyStation.aspx.designer.cs">
+      <DependentUpon>DutyStation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ExpiryVisa.aspx.cs">
+      <DependentUpon>ExpiryVisa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ExpiryVisa.aspx.designer.cs">
+      <DependentUpon>ExpiryVisa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Nationality.aspx.cs">
+      <DependentUpon>Nationality.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\Nationality.aspx.designer.cs">
+      <DependentUpon>Nationality.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Rca.aspx.cs">
+      <DependentUpon>Rca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\Rca.aspx.designer.cs">
+      <DependentUpon>Rca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RnR.aspx.cs">
+      <DependentUpon>RnR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\RnR.aspx.designer.cs">
+      <DependentUpon>RnR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Staff.aspx.cs">
+      <DependentUpon>Staff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\Staff.aspx.designer.cs">
+      <DependentUpon>Staff.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Login.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\About.aspx" />
+    <Content Include="Admin\ChangePassword.aspx" />
+    <Content Include="Admin\EditUser.aspx" />
+    <Content Include="Admin\ManageLocked.aspx" />
+    <Content Include="Admin\ManageUsers.aspx" />
+    <Content Include="Admin\NewUser.aspx" />
+    <Content Include="Admin\UnauthorizedAccess.aspx" />
+    <Content Include="Admin\UserInformation.aspx" />
+    <Content Include="Admin\Verification.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="DefaultError.aspx" />
+    <Content Include="Forms\PaymentInfo.aspx" />
+    <Content Include="Forms\RcaNotice.aspx" />
+    <Content Include="Forms\StaffBulkUpload.aspx" />
+    <Content Include="Forms\StaffInformation.aspx" />
+    <Content Include="Forms\StaffInformationDetail.aspx" />
+    <Content Include="images\view.gif" />
+    <Content Include="Lookups\ContractTypes.aspx" />
+    <Content Include="Reports\AccruedAL.aspx" />
+    <Content Include="Reports\ContractModality.aspx" />
+    <Content Include="Reports\DutyStation.aspx" />
+    <Content Include="Reports\ExpiryVisa.aspx" />
+    <Content Include="Reports\Nationality.aspx" />
+    <Content Include="Reports\Rca.aspx" />
+    <Content Include="Reports\RnR.aspx" />
+    <Content Include="Reports\Staff.aspx" />
+    <Content Include="Scripts\ModalDialogs.css" />
+    <Content Include="Scripts\Styless.css" />
+    <Content Include="SpryAssets\SpryMenuBar.js" />
+    <Content Include="SpryAssets\SpryMenuBarRight.gif" />
+    <Content Include="SpryAssets\SpryMenuBarRightHover.gif" />
+    <Content Include="SpryAssets\SpryMenuBarVertical.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Forms\FileUpload.aspx" />
+    <Content Include="Forms\fileuploads\2\hamid.jpg" />
+    <Content Include="Forms\fileuploads\2\image.JPG" />
+    <Content Include="Forms\fileuploads\2\Karzai ahmadi nejad.mp4" />
+    <Content Include="images\access.png" />
+    <Content Include="images\Container_Header.gif" />
+    <Content Include="images\dir.gif" />
+    <Content Include="images\doc.gif" />
+    <Content Include="images\excel.png" />
+    <Content Include="images\gif.gif" />
+    <Content Include="images\Grid_ActionDelete.gif" />
+    <Content Include="images\Grid_Footer.gif" />
+    <Content Include="images\Grid_Header.gif" />
+    <Content Include="images\Grid_RowAlternate.gif" />
+    <Content Include="images\Grid_RowHover.gif" />
+    <Content Include="images\Grid_RowNormal.gif" />
+    <Content Include="images\Grid_RowNumber.gif" />
+    <Content Include="images\html.gif" />
+    <Content Include="images\jar.gif" />
+    <Content Include="images\Message_Error.png" />
+    <Content Include="images\Message_Information.png" />
+    <Content Include="images\Message_Success.png" />
+    <Content Include="images\Message_Warning.png" />
+    <Content Include="images\mid.gif" />
+    <Content Include="images\mp3.gif" />
+    <Content Include="images\pdf.gif" />
+    <Content Include="images\png.gif" />
+    <Content Include="images\ppt.gif" />
+    <Content Include="images\Progressbar_Content.gif" />
+    <Content Include="images\Progressbar_Wrapper.gif" />
+    <Content Include="images\txt.gif" />
+    <Content Include="images\warning.JPG" />
+    <Content Include="images\wav.gif" />
+    <Content Include="images\winrar.JPG" />
+    <Content Include="images\wma.gif" />
+    <Content Include="images\word.png" />
+    <Content Include="images\xls.gif" />
+    <Content Include="images\zip.gif" />
+    <Content Include="Lookups\Agency.aspx" />
+    <Content Include="Lookups\ContractStatus.aspx" />
+    <Content Include="Lookups\Country.aspx" />
+    <Content Include="Lookups\Department.aspx" />
+    <Content Include="Lookups\DutyStation.aspx" />
+    <Content Include="Lookups\Holidays.aspx" />
+    <Content Include="Lookups\LeaveList.aspx" />
+    <Content Include="Lookups\LeaveType.aspx" />
+    <Content Include="Lookups\PassportType.aspx" />
+    <Content Include="Lookups\VisaType.aspx" />
+    <Content Include="MasterPages\Login.Master" />
+    <Content Include="MasterPages\MainPage.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Forms\fileuploads\2\Technical Documents of the Election database.doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2306</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

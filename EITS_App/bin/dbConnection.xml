@@ -1,0 +1,6 @@
+<connection>
+<DataSource>KBL-IEC-ZAHEER\SQLEXPRESS</DataSource>
+<Database>EITSDB</Database>
+<UserID>zaheer!</UserID>
+<Password>zaheer!</Password>
+</connection>

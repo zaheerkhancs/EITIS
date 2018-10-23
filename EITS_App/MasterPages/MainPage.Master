@@ -1,0 +1,157 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainPage.master.cs" Inherits="EITS_App.MasterPages.MainPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EITS - Empolyee Information Tracking System</title>
+<link href="../Scripts/Styless.css" rel="stylesheet" type="text/css" />
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+    <link href="../Scripts/ModalDialogs.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+  <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body ><center>
+<table width="1000" border="0" cellpadding="0" cellspacing="0">
+  
+  <tr>
+    <td width="21" height="85"></td>
+    <td width="14" rowspan="2" valign="top"><img src="../images/name_start.gif" width="14" height="111" /></td>
+    <td width="106" rowspan="2" align="center" valign="middle" id="nam">&nbsp;</td>
+    <td width="410" rowspan="2" valign="top" id="nam"><h1>Employee Information Tracking 
+        System</h1>
+      <h3>HR Department, UNDP Elect<br />
+          Kabul, Afghanistan</h3></td>
+    <td width="14" rowspan="2" valign="top"><img src="../images/name_end.gif" width="14" height="111" /></td>
+    <td width="200">&nbsp;</td>
+    <td width="14" rowspan="2" valign="top"><img src="../images/name_start.gif" alt="" width="14" height="111" /></td>
+    <td width="158" align="center" valign="middle" bgcolor="#DFDFDF"><img src="../images/admin_ico.gif" width="59" height="81" /></td>
+    <td width="14" rowspan="2" valign="top"><img src="../images/name_end.gif" width="14" height="111" /></td>
+    <td width="49"></td>
+  </tr>
+  <tr>
+    <td height="26"></td>
+    <td>&nbsp;</td>
+    <td align="center" valign="top" id="nam"> <asp:LoginName ID="LoginName1" runat="server" />
+        &nbsp;</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td height="380"></td>
+    <td colspan="8" valign="top"> <div id="brdr"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="172" height="22" valign="top"><img src="../images/menu_head.gif" width="172" height="22" /></td>
+          <td width="18" align="right" valign="top"><img src="../images/ttl_start.gif" width="8" height="22" /></td>
+          <td width="386" valign="top" id="ttl_mid">:: EITS ::</td>
+          <td width="350" align="left" valign="top"><img src="../images/ttl_end.gif" width="8" height="22" /></td>
+      </tr>
+      <tr>
+        <td rowspan="3" align="center" valign="top" id="sidebar">
+          <ul id="MenuBar1" class="MenuBarVertical">
+            <li><a class="MenuBarItemSubmenu" href="../Forms/StaffInformation.aspx">Staff Information</a>
+
+            </li>  
+         <li><a class="MenuBarItemSubmenu" href="../Forms/PaymentInfo.aspx">Monthly Payment Information</a>
+            </li>          
+             <li><a class="MenuBarItemSubmenu" href="../Forms/FileUpload.aspx">File Upload Facility</a>
+             <ul>
+             <li>
+             <a href ="../Forms/FileUpload.aspx"> Fille Attachment</a>
+             </li>
+             </ul>
+            </li>
+            <li><a class="MenuBarItemSubmenu" href="../Forms/RcaNotice.aspx">RCA Notices</a>
+            </li>
+
+
+                <li><a class="MenuBarItemSubmenu" href="../Reports/Reports.aspx">Reports</a>
+        <ul>
+                <li><a href="../Reports/Staff.aspx">List of International and National Staff</a></li>
+                <li><a href="../Reports/ContractModality.aspx">List of Staff by Contract Modality</a></li>
+                <li><a href="../Reports/DutyStation.aspx">List of Staff by Duty Station</a></li>
+                <li><a href="../Reports/Nationality.aspx">List of Staff by Nationality</a></li>
+                <li><a href="../Reports/RnR.aspx">List of Staff with most recent R and R and Projections</a></li>
+                 <li><a href="../Reports/AccruedAL.aspx">List of Staff by Accrued Annual Leave</a></li>
+                <li><a href="../Reports/ExpiryVisa.aspx">List of Staff with Expiring Afghan Visa</a></li>
+                <li><a href="../Reports/Rca.aspx">List of Staff Due for RCA</a></li>
+                
+                
+                </ul>
+        </li>
+
+         	<li><a class="MenuBarItemSubmenu" href="#">Lookups</a>
+        	<ul>
+            	<li><a href="../Lookups/ContractTypes.aspx">Contract Type List</a></li>
+             	<li><a href="../Lookups/LeaveType.aspx">Leave Type List</a></li>
+             	<li><a href="../Lookups/PassportType.aspx">Passport Type List</a></li>
+                <li><a href="../Lookups/VisaType.aspx">Visa Type List</a></li>
+             	<li><a href="../Lookups/Holidays.aspx">Holiday List</a></li>
+             	<li><a href="../Lookups/LeaveList.aspx">Leave List</a></li>
+            	<li><a href="../Lookups/ContractStatus.aspx">Contract Status</a></li>
+            	<li><a href="../Lookups/DutyStation.aspx">Duty Station</a></li>
+            	<li><a href="../Lookups/Agency.aspx"> New Agency</a></li>
+            	<li><a href="../Lookups/Department.aspx"> New Department</a></li>
+            	<li><a href="../Lookups/Country.aspx"> Country</a></li>
+            	
+             </ul>
+             </li>                
+    	
+    	<li><a class="MenuBarItemSubmenu" href="#">Administrator</a>
+        	<ul>
+            	<li><a href="../Admin/ManageUsers.aspx">Manage User</a></li>
+             	<li><a href="../Admin/ManageLocked.aspx">Unloack User</a></li>
+             	<li><a href="../Admin/ChangePassword.aspx">Change Password</a></li>
+             	<li><a href="#">Activity Log</a></li>
+             </ul>
+             </li>                
+          
+          </ul>          <p>&nbsp;</p></td>
+          <td height="173" colspan="3" align="center" valign="top"> <br />
+         <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+      </div>
+<div id="footer"> Copyright 2010-2015 UNDP Elect, Kabul, Afghanistan</div>
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</center>
+    <p>
+        &nbsp;</p>
+</body>
+
+</html>
+

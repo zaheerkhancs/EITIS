@@ -1,0 +1,30 @@
+C:\Projects\EITS\EITS\bin\Debug\EITS.dll
+C:\Projects\EITS\EITS\bin\Debug\EITS.pdb
+C:\Projects\EITS\EITS\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\EITS\EITS\obj\Debug\EITS.dll
+C:\Projects\EITS\EITS\obj\Debug\EITS.pdb
+C:\Projects\EITS\EITS(DALClassess)\bin\Debug\EITS.dll
+C:\Projects\EITS\EITS(DALClassess)\bin\Debug\EITS.pdb
+C:\Projects\EITS\EITS(DALClassess)\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\EITS\EITS(DALClassess)\obj\Debug\EITS.dll
+C:\Projects\EITS\EITS(DALClassess)\obj\Debug\EITS.pdb
+C:\Documents and Settings\kvelayo\Desktop\EITS\EITS(DALClassess)\bin\Debug\EITS.dll
+C:\Documents and Settings\kvelayo\Desktop\EITS\EITS(DALClassess)\bin\Debug\EITS.pdb
+C:\Documents and Settings\kvelayo\Desktop\EITS\EITS(DALClassess)\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\kvelayo\Desktop\EITS\EITS(DALClassess)\obj\Debug\EITS.dll
+C:\Documents and Settings\kvelayo\Desktop\EITS\EITS(DALClassess)\obj\Debug\EITS.pdb
+C:\Documents and Settings\kvelayo\Desktop\EITS2\EITS(DALClassess)\bin\Debug\EITS.dll
+C:\Documents and Settings\kvelayo\Desktop\EITS2\EITS(DALClassess)\bin\Debug\EITS.pdb
+C:\Documents and Settings\kvelayo\Desktop\EITS2\EITS(DALClassess)\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\kvelayo\Desktop\EITS2\EITS(DALClassess)\obj\Debug\EITS.dll
+C:\Documents and Settings\kvelayo\Desktop\EITS2\EITS(DALClassess)\obj\Debug\EITS.pdb
+C:\Documents and Settings\Administrator\Desktop\EITSOctober30\EITS\EITS(DALClassess)\bin\Debug\EITS.dll
+C:\Documents and Settings\Administrator\Desktop\EITSOctober30\EITS\EITS(DALClassess)\bin\Debug\EITS.pdb
+C:\Documents and Settings\Administrator\Desktop\EITSOctober30\EITS\EITS(DALClassess)\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\EITSOctober30\EITS\EITS(DALClassess)\obj\Debug\EITS.dll
+C:\Documents and Settings\Administrator\Desktop\EITSOctober30\EITS\EITS(DALClassess)\obj\Debug\EITS.pdb
+D:\Db codes and solution files\EITS_31_October_update\EITS_31_October_update\EITS\EITS(DALClassess)\bin\Debug\EITS.dll
+D:\Db codes and solution files\EITS_31_October_update\EITS_31_October_update\EITS\EITS(DALClassess)\bin\Debug\EITS.pdb
+D:\Db codes and solution files\EITS_31_October_update\EITS_31_October_update\EITS\EITS(DALClassess)\obj\Debug\ResolveAssemblyReference.cache
+D:\Db codes and solution files\EITS_31_October_update\EITS_31_October_update\EITS\EITS(DALClassess)\obj\Debug\EITS.dll
+D:\Db codes and solution files\EITS_31_October_update\EITS_31_October_update\EITS\EITS(DALClassess)\obj\Debug\EITS.pdb

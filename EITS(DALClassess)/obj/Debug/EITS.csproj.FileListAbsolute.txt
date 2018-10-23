@@ -1,0 +1,5 @@
+C:\Projects\EITS\EITS\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\EITS\EITS\bin\Debug\EITS.dll
+C:\Projects\EITS\EITS\bin\Debug\EITS.pdb
+C:\Projects\EITS\EITS\obj\Debug\EITS.dll
+C:\Projects\EITS\EITS\obj\Debug\EITS.pdb
